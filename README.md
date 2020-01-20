@@ -1,4 +1,4 @@
-# KDD_RL_2019
+# XXXX_2019
 ## Our Solution:
     
 Our solution is Gaussian Process + MCTS. First, using Gaussian Process to predict the reward function. Then, chosing the action by MCTS for maximizing the mean reward + variance of the learned reward function (approximate the UCB in finite horizon MDP). Tree search with pruning can be used to replace MCTS for fastering the training process. 
